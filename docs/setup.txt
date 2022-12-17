@@ -1,0 +1,15 @@
+# how the starter was created.
+
+* Installed Typescript via NPM.
+* Updated the tsconfig.json for the aspects I want to support.
+* created some placeholder folders and files for the src code layout I want to use.
+
+* Installed Webpack and Webpack-CLI via NPM.
+* Installed TS-Loader for webpack via NPM.
+* Created the webpack.config.js to define how I want webpack to work.
+* Added a "build" into script to the package.json.
+
+* Added the Copy-Webpack-Plugin via NPM and setup into the config for webpack to move index.html and any static assets that are NOT linked by code.
+
+* Install Webpack-Dev-Server via NPM to provide constant real-time build & testing.
+* Added a "serve" into script to the package.json

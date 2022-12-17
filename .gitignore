@@ -1,0 +1,11 @@
+# List files and directories that you do not wish to include into GIT.
+# For Example: build files and Node Modules from NPM.
+
+#created by manual ts builds.
+/build  
+
+#used by webpack for it's full bundled content.
+/dist
+
+#created by npm for all it's node modules it downloads by package.json.
+/node_modules    
